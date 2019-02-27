@@ -1,0 +1,27 @@
+D:\Sony Stick\CalculatorWPFFinal\CalculatorWPF\bin\Debug\CalculatorWPF.exe.config
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\bin\Debug\CalculatorWPF.exe.config
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\bin\Debug\CalculatorWPF.exe
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\bin\Debug\CalculatorWPF.pdb
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.csprojResolveAssemblyReference.cache
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\MainWindow.baml
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\MainWindow.g.cs
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\App.g.cs
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF_MarkupCompile.cache
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.g.resources
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.Properties.Resources.resources
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.csproj.GenerateResource.Cache
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.exe
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.pdb
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\bin\Debug\CalculatorWPF.exe.config
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.exe
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.pdb
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\bin\Debug\CalculatorWPF.exe
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\bin\Debug\CalculatorWPF.pdb
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.csprojResolveAssemblyReference.cache
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\MainWindow.baml
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\MainWindow.g.cs
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\App.g.cs
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF_MarkupCompile.cache
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.g.resources
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.Properties.Resources.resources
+C:\GrapeCity\CalculatorWPFFinal\CalculatorWPF\obj\Debug\CalculatorWPF.csproj.GenerateResource.Cache

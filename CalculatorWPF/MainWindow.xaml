@@ -1,0 +1,103 @@
+﻿<Window x:Name="Calculator" x:Class="CalculatorWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calculator" Height="380" Width="270" ResizeMode="NoResize" Icon="Icon/Calculator.ico" KeyDown="Calculator_KeyDown" FontSize="14" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow">
+
+    <Grid Margin="0,0,0,0" Background="#FFCCECFF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="MC" Name="btnMC" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25"  Width="40" Grid.Row="1" Grid.Column="0" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" >
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientActiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="MR" Name="btnMR" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="1" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientActiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="MS" Name="btnMS" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="1" Grid.Column="2" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientActiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="M+" Name="btnMplus" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="1" Grid.Column="3" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientActiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="M-" Name="btnMminus" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="1" Grid.Column="4" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientActiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+
+        <Button Content="←" Name="btnBackSpace" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="2" Grid.Column="0" FontWeight="Bold" Click="btnBackSpace_Click" Background="#FFE8F8FB"  />
+        <Button Content="CE" Name="btnCE" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="2" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnCE_Click" Background="#FFE8F8FB"/>
+        <Button Content="C" Name="btnC" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="2" Grid.Column="2" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnC_Click" Background="#FFE8F8FB"/>
+        <Button Content="±" Name="btnPlusMin" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="2" Grid.Column="3" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnPlusMin_Click" Background="#FF6A9CF3" />
+        <Button Content="√" Name="btnSqrt" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="2" Grid.Column="4" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnSqrt_Click" Background="#FF6A9CF3"/>
+
+        <Button Content="7" Name="btnSeven" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="3" Grid.Column="0" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnSeven_Click" Background="#FFD9E4F7">
+            <Button.BindingGroup>
+                <BindingGroup/>
+            </Button.BindingGroup>
+        </Button>
+        <Button Content="8" Name="btnEight" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="3" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnEight_Click" Background="#FFD9E4F7"/>
+        <Button Content="9" Name="btnNine" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="3" Grid.Column="2" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnNine_Click" Background="#FFD9E4F7"/>
+        <Button Content="/" Name="btnDivide" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="3" Grid.Column="3" Click="btnDivide_Click" Background="#FF6A9CF3"/>
+        <Button Content="%" Name="btnMod" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="3" Grid.Column="4" Click="btnMod_Click" Background="#FF6A9CF3"/>
+
+        <Button Content="4" Name="btnFour" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="4" Grid.Column="0" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnFour_Click" Background="#FFD9E4F7"/>
+        <Button Content="5" Name="btnFive" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="4" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnFive_Click" Background="#FFD9E4F7"/>
+        <Button Content="6" Name="brnSix" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="4" Grid.Column="2" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="brnSix_Click" Background="#FFD9E4F7"/>
+        <Button Content="*" Name="btnMultiply" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="4" Grid.Column="3" Click="btnMultiply_Click" Background="#FF6A9CF3"/>
+        <Button Content="X!" Name="btnFat" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="4" Grid.Column="4" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnFat_Click" Background="#FF6A9CF3"/>
+
+        <Button Content="1" Name="btnOne" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Top" Height="25" Width="40" Grid.Row="5" Grid.Column="0" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnOne_Click" Background="#FFD9E4F7"/>
+        <Button Content="2" Name="btnTwo" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="5" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnTwo_Click" Background="#FFD9E4F7" />
+        <Button Content="3" Name="btnThree" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="5" Grid.Column="2" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnThree_Click" Background="#FFD9E4F7"/>
+        <Button Content="-" Name="btnDifference" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="5" Grid.Column="3" Click="btnDifference_Click" Background="#FF6A9CF3"/>
+        <Button Content="=" x:Name="btnEqual" Grid.RowSpan="2" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Width="40" Height="60" Grid.Row="5" Grid.Column="4" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Background="#FF377EFB" TabIndex="1" Click="btnEqual_Click" />
+
+        <Button Content="0" Name="btnZero" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="90" Grid.Row="6" Grid.Column="0" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnZero_Click" Background="#FFD9E4F7"/>
+        <Button Content="." Name="btnPeriod" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="6" Grid.Column="2" Click="btnPeriod_Click" Background="#FFD9E4F7"/>
+        <Button Content="+" Name="btnAdd" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="6" Grid.Column="3" Click="btnAdd_Click" Background="#FF6A9CF3"/>
+
+        <Button Content="sin" Name="btnSin" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="7" Grid.Column="0" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnSin_Click" Background="#FF50AADE"/>
+        <Button Content="cos" Name="btnCos" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="7" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnCos_Click" Background="#FF50AADE"/>
+        <Button Content="tan" Name="btnTan" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="7" Grid.Column="2" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnTan_Click" Background="#FF50AADE"/>
+        <Button Content="x^2" Name="btnX2" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="7" Grid.Column="3" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnX2_Click" Background="#FF50AADE"/>
+        <Button Content="Pi" Name="btnPi" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="7" Grid.Column="4" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnPi_Click" Background="#FF50AADE"/>
+
+        <Button Content="sinh" Name="btnSinh" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="8" Grid.Column="0" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnSinh_Click" Background="#FF50AADE"/>
+        <Button Content="cosh" Name="btnCosh" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="8" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnCosh_Click" Background="#FF50AADE"/>
+        <Button Content="tanh" Name="btnTanh" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="8" Grid.Column="2" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnTanh_Click" Background="#FF50AADE"/>
+        <Button Content="Log" Name="btnLog" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="8" Grid.Column="3" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnLog_Click" Background="#FF50AADE"/>
+        <Button Content="Exp" Name="btnExp" HorizontalAlignment="Center" Margin="5,5,5,5" VerticalAlignment="Center" Height="25" Width="40" Grid.Row="8" Grid.Column="4" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Click="btnExp_Click" Background="#FF50AADE"/>
+        <TextBox Grid.ColumnSpan="5" Name="txtCalculate" HorizontalAlignment="Center" Height="35" Margin="5,5,5,5" TextWrapping="Wrap" VerticalAlignment="Center" Width="240" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold" TextAlignment="Right"  Focusable ="False" >
+            <TextBox.ContextMenu>
+                <ContextMenu Name="TextBoxMeun" FlowDirection="LeftToRight">
+                    <MenuItem Header="Copy" Click="CopyMenuItem_Click"></MenuItem>
+                    <MenuItem Header="Paste" Click="PasteMenuItem_Click" ></MenuItem>
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+    </Grid>
+</Window>

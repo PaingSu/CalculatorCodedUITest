@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWPF", "CalculatorWPF\CalculatorWPF.csproj", "{1A3F5890-52C0-4E4A-A9F5-8E3DFA36C4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWPF.TestScripts", "Calculator.TestScripts\CalculatorWPF.TestScripts.csproj", "{DDB49016-D0BB-4E0F-A374-A73CF1A9FCB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A3F5890-52C0-4E4A-A9F5-8E3DFA36C4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3F5890-52C0-4E4A-A9F5-8E3DFA36C4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3F5890-52C0-4E4A-A9F5-8E3DFA36C4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3F5890-52C0-4E4A-A9F5-8E3DFA36C4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB49016-D0BB-4E0F-A374-A73CF1A9FCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB49016-D0BB-4E0F-A374-A73CF1A9FCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB49016-D0BB-4E0F-A374-A73CF1A9FCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB49016-D0BB-4E0F-A374-A73CF1A9FCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

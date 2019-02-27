@@ -1,0 +1,14 @@
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\Calculator.TestScripts\bin\Debug\Calculator.TestScripts.dll
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\Calculator.TestScripts\bin\Debug\Calculator.TestScripts.pdb
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\Calculator.TestScripts\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\Calculator.TestScripts\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\Calculator.TestScripts\obj\Debug\CalculatorWPF.TestScripts.csprojResolveAssemblyReference.cache
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\Calculator.TestScripts\obj\Debug\Calculator.TestScripts.dll
+D:\PaingSuSanLaptop\Sony Stick\CalculatorWPFFinal\Calculator.TestScripts\obj\Debug\Calculator.TestScripts.pdb
+C:\GrapeCity\CalculatorWPFFinal\Calculator.TestScripts\bin\Debug\Calculator.TestScripts.dll
+C:\GrapeCity\CalculatorWPFFinal\Calculator.TestScripts\bin\Debug\Calculator.TestScripts.pdb
+C:\GrapeCity\CalculatorWPFFinal\Calculator.TestScripts\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GrapeCity\CalculatorWPFFinal\Calculator.TestScripts\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\GrapeCity\CalculatorWPFFinal\Calculator.TestScripts\obj\Debug\CalculatorWPF.TestScripts.csprojResolveAssemblyReference.cache
+C:\GrapeCity\CalculatorWPFFinal\Calculator.TestScripts\obj\Debug\Calculator.TestScripts.dll
+C:\GrapeCity\CalculatorWPFFinal\Calculator.TestScripts\obj\Debug\Calculator.TestScripts.pdb
